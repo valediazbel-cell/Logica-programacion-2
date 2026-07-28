@@ -2,7 +2,7 @@ let llamarFahrenheit = document.getElementById("fahrenheit")
 let llamarKelvin = document.getElementById("kelvin")
 let celsius = Number (prompt("Ingese su temperatura en Celsius:"));
 if (isNaN(celsius)) {
-    console.log ("Error debe ingresar un número")
+    alert("Error debe ingresar un número")
 }
 else {
 
